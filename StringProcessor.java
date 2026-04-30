@@ -1,14 +1,24 @@
-import java.util.List;
+import java.util.*;
 import java.util.function.*;
 
 public class StringProcessor {
-    public void processStrings(List<String> strings, Predicate<String> filter, 
-                               Function<String, String> transformer, Consumer<String> action) {
+    public static void processStrings(List<String> strings, Predicate<String> filter, 
+                                      Function<String, String> transformer, Consumer<String> printer) {
         for (String s : strings) {
-            if (filter.test(s)) { // 5 тэмдэгтээс урт үгсийг шүүх [cite: 21]
-                String result = transformer.apply(s); // Үгсийг урвуулах [cite: 22]
-                action.accept(result); // "ГАРШИЛ: " угтвартай хэвлэх [cite: 23]
+            if (filter.test(s)) {
+                printer.accept(transformer.apply(s));
             }
         }
+    }
+
+    public static void main(String[] args) {
+        List<String> words = List.of("Programchlal", "java");
+        
+        Predicate<String> filter = s -> s.length() > 5;
+        Function<String, String> transformer = s -> new StringBuilder(s).reverse().toString();
+        Consumer<String> printer = s -> System.out.println("Garshil: " + s.toUpperCase());
+
+        // Гаралт: ГАРШИЛ: ЛАЛЧМАРГОРП[cite: 1]
+        processStrings(words, filter, transformer, printer);
     }
 }

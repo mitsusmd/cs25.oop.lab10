@@ -1,11 +1,33 @@
+import java.util.ArrayList;
 import java.util.List;
 
+class Animal {
+    private String name;
+    public Animal(String name) { this.name = name; }
+    @Override
+    public String toString() { return name; }
+}
+
 public class Zoo<T extends Animal> {
-    // source-оос destination руу бүх амьтдыг шилжүүлэх [cite: 8]
+    // Төрлийн аюулгүй байдлыг хангасан шилжүүлэг
     public void transferAnimals(List<? extends T> source, List<? super T> destination) {
         for (T animal : source) {
-            destination.add(animal); // Төрлийн аюулгүй байдлыг хангана [cite: 9]
+            destination.add(animal);
         }
-        source.clear();
+    }
+
+    public static void main(String[] args) {
+        Zoo<Animal> myZoo = new Zoo<>();
+        List<Animal> source = new ArrayList<>();
+        source.add(new Animal("Arslan"));
+        source.add(new Animal("Togruu"));
+        
+        List<Animal> destination = new ArrayList<>();
+        myZoo.transferAnimals(source, destination);
+        
+        // Гаралт: Arslan, Togruu
+        for (int i = 0; i < destination.size(); i++) {
+            System.out.print(destination.get(i) + (i < destination.size() - 1 ? ", " : ""));
+        }
     }
 }
