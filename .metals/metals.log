@@ -1,0 +1,36 @@
+2026.04.30 15:14:07 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9' for client Visual Studio Code 1.117.0.
+2026.04.30 15:14:07 INFO  Memory monitor started
+2026.04.30 15:14:09 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.04.30 15:14:09 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+Apr 30, 2026 3:14:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 30, 2026 3:14:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.04.30 15:14:11 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:11 WARN  no build tool detected in workspace 'C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2026.04.30 15:14:11 WARN  Build server is not auto-connectable.
+2026.04.30 15:14:11 WARN  no build target for: C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\zoo.java
+2026.04.30 15:14:11 WARN  no build target for: C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java
+2026.04.30 15:14:11 WARN  no build target for: C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\StringProcessor.java
+2026.04.30 15:14:11 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:11 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:11 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:12 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:12 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+Apr 30, 2026 3:14:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Apr 30, 2026 3:14:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.04.30 15:14:12 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:13 WARN  Running javac-semanticdb failed for file:///C:/Users/b2515/OneDrive/Documents/Obyegt%20handlgat%20programchlal/lab/lab9/Library.java. Output:
+
+2026.04.30 15:14:14 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:13 INFO  time: code lens generation in 2.38s
+2026.04.30 15:14:14 WARN  Running javac-semanticdb failed for file:///C:/Users/b2515/OneDrive/Documents/Obyegt%20handlgat%20programchlal/lab/lab9/StringProcessor.java. Output:
+
+2026.04.30 15:14:14 WARN  Running javac-semanticdb failed for file:///C:/Users/b2515/OneDrive/Documents/Obyegt%20handlgat%20programchlal/lab/lab9/zoo.java. Output:
+
+2026.04.30 15:14:14 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:15 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:15 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
+2026.04.30 15:14:17 INFO  no build target found for C:\Users\b2515\OneDrive\Documents\Obyegt handlgat programchlal\lab\lab9\Library.java. Using fallback presentation compiler.
